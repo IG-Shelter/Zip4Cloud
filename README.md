@@ -4,6 +4,7 @@
 
 ### 概述
 这是一个分卷压缩工具，能够保持目录结构并单独压缩每个文件以便于云端备份。支持多种压缩选项、完整性验证和MD5校验功能。
+此外，提供了对应的解压脚本以还原文件夹且支持还原后校验。
 
 ### 主要功能
 - **智能分卷压缩**: 自动按指定大小分割压缩文件
@@ -80,6 +81,7 @@ python compressor.py /path/to/source -v 100M --compression-level 9
 
 ### Overview
 An volume compression tool that maintains directory structure and compresses each file individually for cloud backup convenience. Supports multiple compression options, integrity verification, and MD5 checksum functionality.
+In addition, a corresponding decompression script is provided to restore the folder and support verification after restoration.
 
 ### Key Features
 - **Smart Volume Compression**: Automatically splits compressed files by specified size
